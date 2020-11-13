@@ -1,0 +1,23 @@
+{
+    "name": "store-server",
+    "version": "1.0.0",
+    "description": "Storage server which store http content",
+    "author": {
+        "name": "Fabien Vauchelles",
+        "url": "http://fabien.vauchelles.com"
+    },
+    "license": "Apache-2.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "./node_modules/.bin/gulp test"
+    },
+    "dependencies": {
+        "body-parser": "~1.18.2",
+        "dotenv": "^8.2.0",
+        "express": "~4.16.3",
+        "lodash": "~4.17.4",
+        "mongodb": "^3.6.3",
+        "morgan": "~1.9.0",
+        "winston": "~2.4.1"
+    }
+}
